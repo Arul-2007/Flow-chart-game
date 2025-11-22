@@ -1,0 +1,83 @@
+.contact-card {
+  background: var(--card-bg);
+  padding: 40px;
+  max-width: 650px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-card p {
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row input {
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background: transparent;
+  color: var(--text);
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--primary);
+}
+
+.contact-form textarea {
+  height: 140px;
+  resize: none;
+}
+
+.contact-btn {
+  padding: 12px 25px;
+  background: var(--primary);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;git remote add origin
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  opacity: 0.85;
+}
+
+.contact-socials {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-socials a {
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-socials a:hover {
+  opacity: 0.7;
+}
